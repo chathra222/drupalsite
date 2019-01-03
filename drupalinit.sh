@@ -5,7 +5,7 @@
 # fail the script if any command fails
 set -e
 
-sleep 10
+sleep 15
 CONTAINER_ID=$(docker ps|grep web|awk '{print $1}')
 docker exec -it $CONTAINER_ID drush site-install --db-url=mysql://drupalusr:password@db:3306/drupal -y
 docker exec -it $CONTAINER_ID chmod 777 -R /var/www/html/sites/
