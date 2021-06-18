@@ -2,8 +2,6 @@
 
 Please use https://travis-ci.org to run.
 
-I have attached the travis job run logs for reference. (travisjob.log)
-
 ## Test steps in local machine(preferred Linux or Mac)
 
 1)Install git, docker , docker-compose ,curl(if you don't have Browser) in your test machine
